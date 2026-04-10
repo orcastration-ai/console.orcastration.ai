@@ -19,3 +19,4 @@ jobs:
     uses: orcastration-ai/.github/.github/workflows/deploy-static-site.yml@main
     with:
       site-id: console-orcastration-ai
+    secrets: inherit
