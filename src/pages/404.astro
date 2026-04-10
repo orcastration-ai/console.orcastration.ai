@@ -1,0 +1,24 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="404 — Page Not Found" description="The page you're looking for doesn't exist.">
+  <main class="not-found">
+    <h1 class="orca-section-title">404</h1>
+    <p class="orca-section-lead">Page not found</p>
+    <a href="/" class="orca-link-underline">Go home</a>
+  </main>
+</Base>
+
+<style>
+  .not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: var(--orca-container-gutter);
+    gap: var(--orca-space-md);
+  }
+</style>
